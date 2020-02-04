@@ -1,9 +1,9 @@
 # UIComponentKit
 
-[![CI Status](https://img.shields.io/travis/wajahathassan64/UIComponentKit.svg?style=flat)](https://travis-ci.org/wajahathassan64/UIComponentKit)
-[![Version](https://img.shields.io/cocoapods/v/UIComponentKit.svg?style=flat)](https://cocoapods.org/pods/UIComponentKit)
-[![License](https://img.shields.io/cocoapods/l/UIComponentKit.svg?style=flat)](https://cocoapods.org/pods/UIComponentKit)
-[![Platform](https://img.shields.io/cocoapods/p/UIComponentKit.svg?style=flat)](https://cocoapods.org/pods/UIComponentKit)
+[![CI Status](https://img.shields.io/travis/wajahathassan64/WHCustomizeConstraint.svg?style=flat)](https://travis-ci.org/wajahathassan64/WHCustomizeConstraint)
+[![Version](https://img.shields.io/cocoapods/v/WHCustomizeConstraint.svg?style=flat)](https://cocoapods.org/pods/WHCustomizeConstraint)
+[![License](https://img.shields.io/cocoapods/l/WHCustomizeConstraint.svg?style=flat)](https://cocoapods.org/pods/WHCustomizeConstraint)
+[![Platform](https://img.shields.io/cocoapods/p/WHCustomizeConstraint.svg?style=flat)](https://cocoapods.org/pods/WHCustomizeConstraint)
 
 ## Example
 

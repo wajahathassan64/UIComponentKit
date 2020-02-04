@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
     s.name             = 'UIComponentKit'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = 'UIComponentKit'
     
     s.description      = <<-DESC
-    'WHCustomizeConstraint is the syntactic sugar that makes Auto Layout sweeter for human use'
-    DESC
+      'This Pod is the more consize version of some of common UIKit components to makes the life of the developer easier, That one can create UI-Components like UILabel, UIImageView.etc. By just writing one line of code'
+      DESC
     
     s.homepage         = 'https://github.com/wajahathassan64/WHCustomizeConstraint'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
