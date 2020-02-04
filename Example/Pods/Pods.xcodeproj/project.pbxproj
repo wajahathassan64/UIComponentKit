@@ -10,6 +10,8 @@
 		1F7EDF49063DFCCBE0544D0D1392C89C /* UIComponentKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C900A7C7D82B7844E168E4E87354D /* UIComponentKit-dummy.m */; };
 		2FB870604409B24B911FB4D17E51A7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5F0FEF90253E3693896D43B4CEF4A997 /* UIComponentKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E6AF403C90630D2F7D009EF5DF30C7 /* UIComponentKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6418436D23E993B3001116A1 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418436B23E993B3001116A1 /* UIFontExtension.swift */; };
+		6418436E23E993B3001116A1 /* UIComponentKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418436C23E993B3001116A1 /* UIComponentKit.swift */; };
 		82BFBD734DD4AC830F2DEB51682EE782 /* Pods-UIComponentKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA9A8145A0695D4C18027DCA6352 /* Pods-UIComponentKit_Tests-dummy.m */; };
 		8711BDD19318644AA22C89989D085DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		87F98993D19F886DF934AB538385581E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -48,6 +50,8 @@
 		510986FB671243C786C63817EA92BC6C /* Pods-UIComponentKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIComponentKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5850A906C3B622FB61C1350312A07AEF /* UIComponentKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIComponentKit.xcconfig; sourceTree = "<group>"; };
 		5C1210FB4E251F8B3D36B0F09789BB11 /* Pods-UIComponentKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIComponentKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6418436B23E993B3001116A1 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		6418436C23E993B3001116A1 /* UIComponentKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponentKit.swift; sourceTree = "<group>"; };
 		6E7C11513062ACCB5C144A3425C9FC32 /* Pods-UIComponentKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIComponentKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7610AAF2339E1070DE974AAA4924479F /* Pods-UIComponentKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIComponentKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		79A45454DD99FEC79EBEDD11303F397B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -138,9 +142,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6418436A23E99351001116A1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6418436C23E993B3001116A1 /* UIComponentKit.swift */,
+				6418436B23E993B3001116A1 /* UIFontExtension.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		6FFE3FF815E167306F07580EF0AC70BB /* UIComponentKit */ = {
 			isa = PBXGroup;
 			children = (
+				6418436A23E99351001116A1 /* Source */,
 				7F87A4996E99D673BE5FF8B2491C06F1 /* ReplaceMe.swift */,
 				C657BCAA50DDBB523442A6619431345B /* Pod */,
 				2EABA165DD0AA6A660346BF385AF7A64 /* Support Files */,
@@ -386,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6418436E23E993B3001116A1 /* UIComponentKit.swift in Sources */,
 				AF0BEDC3F0DB12177449FECEC834762A /* ReplaceMe.swift in Sources */,
+				6418436D23E993B3001116A1 /* UIFontExtension.swift in Sources */,
 				1F7EDF49063DFCCBE0544D0D1392C89C /* UIComponentKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
