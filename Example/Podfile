@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIComponentKit_Example' do
+  pod 'UIComponentKit', :path => '../'
+
+  target 'UIComponentKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
